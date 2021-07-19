@@ -29,12 +29,12 @@
 .logo {
     display: flex;
     justify-content: center;
-    &:hover {
-        transform: scale(1.1);
-    }
-    h1,
-    .icon {
-        cursor: pointer;
+    div {
+        display: flex;
+        &:hover {
+            transform: scale(1.1);
+            cursor: pointer;
+        }
     }
 }
 

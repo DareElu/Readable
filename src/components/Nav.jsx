@@ -25,9 +25,11 @@ const Nav = ({ setIntroState }) => {
     };
     return (
         <motion.nav className="nav">
-            <motion.div onClick={clearSearch} className="logo">
-                <GiBookCover className="icon" />
-                <h1>Readable</h1>
+            <motion.div className="logo">
+                <div onClick={clearSearch}>
+                    <GiBookCover className="icon" />
+                    <h1>Readable</h1>
+                </div>
             </motion.div>
             <motion.form onSubmit={submitSearch} className="search">
                 <input value={input} onChange={inputHandler} type="text" />

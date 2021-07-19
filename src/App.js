@@ -27,7 +27,7 @@ function App() {
                 intro: "Use the search bar to search for your favourite books",
             },
             {
-                element: ".logo h1",
+                element: ".logo div",
                 intro: "after generating your search you can use the readable logo to clear your search",
             },
         ],

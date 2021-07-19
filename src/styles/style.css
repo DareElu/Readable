@@ -41,13 +41,15 @@
           justify-content: center;
 }
 
-.logo:hover {
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1);
+.logo div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
-.logo h1,
-.logo .icon {
+.logo div:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
   cursor: pointer;
 }
 
