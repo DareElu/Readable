@@ -27,10 +27,14 @@
 }
 
 .logo {
-    @include flex(center, center, row);
-    cursor: pointer;
+    display: flex;
+    justify-content: center;
     &:hover {
         transform: scale(1.1);
+    }
+    h1,
+    .icon {
+        cursor: pointer;
     }
 }
 

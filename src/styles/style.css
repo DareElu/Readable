@@ -39,19 +39,16 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  cursor: pointer;
 }
 
 .logo:hover {
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
+}
+
+.logo h1,
+.logo .icon {
+  cursor: pointer;
 }
 
 .icon {
