@@ -41,7 +41,8 @@
 }
 .tour-project {
     position: absolute;
-    top: 9%;
+    left: 0;
+    top: 0;
     button {
         font-family: "Montserrat", sans-serif;
         font-size: small;
@@ -49,5 +50,15 @@
         &:hover {
             transform: scale(1.1);
         }
+    }
+}
+
+@media screen and (max-width: 599px) {
+    .tour-project {
+        left: 0;
+        top: 0;
+    }
+    .logo {
+        margin-top: 0.5rem;
     }
 }
