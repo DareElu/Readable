@@ -12,5 +12,5 @@ export const favouriteFictionalAuthorURL = () =>
     `${base_url}${favourite_fiction_author}`;
 export const favouriteSubjectURL = () => `${base_url}${favourite_subject}`;
 export const bookDetailsURL = (id) =>
-    `${base_url}/${id}?key=AIzaSyCkotn5twSbMBUKrWSj2UmXyY7F7uhcid0`;
+    `${base_url}/${id}?key=${process.env.REACT_APP_MAPBOX_TOKEN_API}`;
 export const searchBookURL = (query) => `${base_url}?q=${query}`;
