@@ -1,0 +1,56 @@
+.card-shadow {
+    width: 100%;
+    min-height: 100vh;
+    overflow-y: scroll;
+    background: rgba($color: #000000, $alpha: 0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    &::-webkit-scrollbar {
+        width: 0.5rem;
+    }
+    &::-webkit-scrollbar-thumb {
+        background-color: pink;
+    }
+    &::-webkit-scrollbar-track {
+        background: white;
+    }
+}
+.detail {
+    width: 60%;
+    border-radius: 0.5rem;
+    padding: 1rem 2rem;
+    background: white;
+    position: absolute;
+    left: 22%;
+    top: 22%;
+    color: black;
+}
+.stats {
+    @include flex(space-between, center, row);
+}
+.info {
+    text-align: center;
+    img {
+        width: 0.9rem;
+        height: 0.9rem;
+    }
+}
+.rating-count {
+    @include flex(space-between, center, row);
+    p {
+        margin-left: 0.5rem;
+    }
+}
+.media {
+    margin: 1rem 0rem;
+    img {
+        float: left;
+        display: block;
+        margin-left: 1rem;
+        margin-right: 15px;
+    }
+}
+.description {
+    margin-left: 1rem;
+}

@@ -1,0 +1,256 @@
+.nav {
+  padding: 1.5rem 2.5rem;
+  text-align: center;
+}
+
+.nav input {
+  width: 30%;
+  font-size: 0.75rem;
+  padding: 0.25rem;
+  border: none;
+  margin-top: 0.5rem;
+  -webkit-box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.2);
+  background: #dadada;
+}
+
+.nav button {
+  font-size: 0.75rem;
+  border: none;
+  padding: 0.25rem 1rem;
+  cursor: pointer;
+  background: #eacfac;
+  color: black;
+}
+
+.nav button:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.nav .searchBtn {
+  font-weight: bold;
+}
+
+.logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  cursor: pointer;
+}
+
+.logo:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.icon {
+  margin-right: 5px;
+  width: auto;
+  height: 30px;
+}
+
+.tour-project {
+  position: absolute;
+  top: 9%;
+}
+
+.tour-project button {
+  font-family: "Montserrat", sans-serif;
+  font-size: small;
+  background: #19a744;
+}
+
+.tour-project button:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.book-list {
+  padding: 0rem 2.5rem;
+}
+
+.book-list h2 {
+  padding: 2.5rem 0rem;
+}
+
+.books {
+  min-height: 80vh;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(250px, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  -webkit-column-gap: 0.5rem;
+          column-gap: 0.5rem;
+  row-gap: 2.5rem;
+}
+
+.styled-book {
+  min-height: 30vh;
+  text-align: center;
+}
+
+.styled-book .image img {
+  cursor: pointer;
+}
+
+.styled-book .image img:hover {
+  -webkit-transform: scale(1.03);
+          transform: scale(1.03);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html::-webkit-scrollbar {
+  width: 0.5rem;
+}
+
+html::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+}
+
+html::-webkit-scrollbar-track {
+  background: white;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  width: 100%;
+}
+
+h2 {
+  font-size: 1.5rem;
+  font-family: "Abril Fatface", cursive;
+  font-weight: lighter;
+}
+
+h3 {
+  font-size: 0.65rem;
+  color: #333;
+  padding: 0.5rem 0rem;
+}
+
+p {
+  font-size: 0.6rem;
+  line-height: 200%;
+  color: #696969;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+input {
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+}
+
+.card-shadow {
+  width: 100%;
+  min-height: 100vh;
+  overflow-y: scroll;
+  background: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.card-shadow::-webkit-scrollbar {
+  width: 0.5rem;
+}
+
+.card-shadow::-webkit-scrollbar-thumb {
+  background-color: pink;
+}
+
+.card-shadow::-webkit-scrollbar-track {
+  background: white;
+}
+
+.detail {
+  width: 60%;
+  border-radius: 0.5rem;
+  padding: 1rem 2rem;
+  background: white;
+  position: absolute;
+  left: 22%;
+  top: 22%;
+  color: black;
+}
+
+.stats {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.info {
+  text-align: center;
+}
+
+.info img {
+  width: 0.9rem;
+  height: 0.9rem;
+}
+
+.rating-count {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.rating-count p {
+  margin-left: 0.5rem;
+}
+
+.media {
+  margin: 1rem 0rem;
+}
+
+.media img {
+  float: left;
+  display: block;
+  margin-left: 1rem;
+  margin-right: 15px;
+}
+
+.description {
+  margin-left: 1rem;
+}
+/*# sourceMappingURL=style.css.map */
