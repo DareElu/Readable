@@ -85,6 +85,9 @@
   .logo {
     margin-top: 0.5rem;
   }
+  .nav input {
+    width: 50%;
+  }
 }
 
 .book-list {
